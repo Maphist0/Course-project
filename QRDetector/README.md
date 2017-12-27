@@ -1,5 +1,5 @@
 # QR code detector for low quality images
- - Version:    0.1
+ - Version: 0.1
  - Library used in development:
    - opencv 3.3.1
    - Zbar
