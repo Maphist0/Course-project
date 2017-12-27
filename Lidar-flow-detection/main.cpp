@@ -138,20 +138,6 @@ int main (int argc, char **argv) {
     */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     int is_auto = 0;
 //    std::string pcd_filename(argv[1]);
     std::string pcd_filename;

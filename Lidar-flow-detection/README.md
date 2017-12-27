@@ -6,7 +6,7 @@
  - Compile with cmake
 
 # Prior knowledge
-1. The lidar is installed on the floor, with the scan surface crossing the target tunnel.
+1. The lidar is installed on the ceil, with the scan surface crossing the target tunnel.
 
 1. A flat mirror is used to reflect half of the lidar signal back to ground (otherwise this portion of signal will points to the ceil, wasted).
 
