@@ -8,7 +8,7 @@
 % Output:
 %   valid   -   1 if check success, 0 otherwise
 %
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %

@@ -1,7 +1,7 @@
 %SPLIT_DIGITS_MSER
 %   Split the sub-image containing digits by MSER method
 %
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %

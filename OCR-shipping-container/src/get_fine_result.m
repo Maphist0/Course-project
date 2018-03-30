@@ -2,7 +2,7 @@
 %   Get the fine-grained result based on character segmentation and
 %   Alexnet
 %
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %

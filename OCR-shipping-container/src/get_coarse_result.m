@@ -4,7 +4,7 @@
 %   Refine the company identification result with international shipping 
 %       container company list
 %
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %

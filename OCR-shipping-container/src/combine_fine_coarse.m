@@ -1,7 +1,7 @@
 %COMBINE_FINE_COARSE
 %   Combine the result of fine- and coarse-grained result
 %
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %

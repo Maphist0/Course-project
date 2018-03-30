@@ -7,7 +7,7 @@
 
     Author:     Maphisto
     Version:    0.1
-    Contact:    zzp201501@gmail.com
+    Contact:    zhangz-z-p@sjtu.edu.cn
     License:    MIT
 """
 

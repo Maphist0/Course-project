@@ -6,7 +6,7 @@
 %
 %  NOTICE: The python program from C-RNN need to be modified.
 % 
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %

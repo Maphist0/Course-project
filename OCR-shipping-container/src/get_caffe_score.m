@@ -11,7 +11,7 @@
 %   class       -   The id of maximum response
 %                   Check '../util/convert_class_to_digit.m' for more
 %
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %

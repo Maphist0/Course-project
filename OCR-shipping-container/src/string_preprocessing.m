@@ -4,7 +4,7 @@
 %
 %  Separate container identification and company identification.
 %
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %

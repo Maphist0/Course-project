@@ -18,7 +18,7 @@
 %
 %  Save cropped image in './data/split_data/${TYPE_NAME}'
 %
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %

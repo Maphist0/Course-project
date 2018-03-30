@@ -1,7 +1,7 @@
 %INITIALIZE_FINE_GRAINED
 %  Initialize the caffe network for fine-grained stream
 %
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %

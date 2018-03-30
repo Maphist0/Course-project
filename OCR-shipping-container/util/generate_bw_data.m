@@ -3,7 +3,7 @@
 %  The black & white images are stored in 'bw_data/',
 %       with the same folder structure.
 % 
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %

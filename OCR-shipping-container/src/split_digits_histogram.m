@@ -11,7 +11,7 @@
 %   splits_r    -   A list containing the right position of all segmentations
 %
 %
-%  Author:   Z.P. Zhang
+%  Author:   Maphisto
 %  Version:  0.1
 %  Contact:  zhangz-z-p@sjtu.edu.cn
 %
