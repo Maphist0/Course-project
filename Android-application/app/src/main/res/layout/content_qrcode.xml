@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/qrcode_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zhang.myapplication.QRCodeActivity"
+    tools:showIn="@layout/activity_qrcode">
+
+    <TextView
+        android:id="@+id/qrcode_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/qrcode_title_padding"
+        android:text="@string/qrcode_title"
+        android:textSize="@dimen/qrcode_title_text"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/qrcode_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/qrcode_info_padding"
+        android:text="@string/qrcode_info"
+        android:textSize="@dimen/qrcode_info_text"
+        app:layout_constraintTop_toBottomOf="@id/qrcode_title"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/qrcode_btn_encode"
+        android:layout_width="@dimen/qrcode_btn_width"
+        android:layout_height="@dimen/qrcode_btn_height"
+        android:layout_marginTop="@dimen/qrcode_btn_encoder_margin"
+        android:text="@string/qrcode_btn_encoder"
+        app:layout_constraintTop_toBottomOf="@id/qrcode_info"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/qrcode_btn_decode"
+        android:layout_width="@dimen/qrcode_btn_width"
+        android:layout_height="@dimen/qrcode_btn_height"
+        android:layout_marginTop="@dimen/qrcode_btn_decoder_margin"
+        android:text="@string/qrcode_btn_decoder"
+        app:layout_constraintTop_toBottomOf="@id/qrcode_btn_encode"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

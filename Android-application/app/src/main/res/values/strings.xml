@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--For navigation header-->
+    <string name="nav_header_name">ZP. Zhang</string>
+    <string name="nav_header_mail">zhanghz-z-p@sjtu.edu.cn</string>
+
+    <!--For welcome page-->
+    <string name="welcome_btn_line">Line</string>
+    <string name="welcome_btn_rect">Rectangle</string>
+    <string name="welcome_btn_circle">Circle</string>
+    <string name="welcome_btn_clear">Clear</string>
+
+    <!--For Wifi page-->
+    <string name="title_activity_wifi">Wifi Signal Tool</string>
+    <string name="wifi_btn_scan">scan</string>
+    <string name="wifi_btn_clear">clear</string>
+
+    <!--For Pedometer page-->
+    <string name="title_activity_pedometer">Pedometer and Step Counting</string>
+    <string name="pedometer_text_X">X</string>
+    <string name="pedometer_text_Y">Y</string>
+    <string name="pedometer_text_Z">Z</string>
+    <string name="pedometer_text_A">A</string>
+    <string name="pedometer_btn_write">Write</string>
+    <string name="pedometer_btn_stop">Stop</string>
+    <string name="pedometer_text_acc_change">Accuracy has changed.</string>
+
+    <!--For QRCode-->
+    <string name="title_activity_qrcode">QR Code Tool</string>
+    <string name="qrcode_title">QR Code</string>
+    <string name="qrcode_info">Sample Application</string>
+    <string name="qrcode_btn_encoder">Encoder</string>
+    <string name="qrcode_btn_decoder">Decoder</string>
+
+    <string name="title_activity_qrencoder">QR Encoder</string>
+    <string name="qrencoder_title">QR Code</string>
+    <string name="qrencoder_hint">Please enter the text</string>
+    <string name="qrencoder_btn_text">Generate</string>
+
+    <string name="title_activity_qrdecoder">QR Decoder</string>
+</resources>

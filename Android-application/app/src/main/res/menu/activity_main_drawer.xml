@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_wifi"
+            android:icon="@drawable/ic_network_wifi_black_24dp"
+            android:title="Wifi Tool" />
+        <item
+            android:id="@+id/nav_pedometer"
+            android:icon="@drawable/ic_vibration_black_24dp"
+            android:title="Pedometer" />
+        <item
+            android:id="@+id/nav_qrcode"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="QR Code" />
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_person_pin_black_24dp"
+                android:title="About" />
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        </menu>
+    </item>
+
+</menu>

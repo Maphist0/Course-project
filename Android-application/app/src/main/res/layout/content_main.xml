@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zhang.myapplication.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:gravity="center_horizontal"
+        android:paddingVertical="@dimen/helloworld_pad" />
+
+
+    <com.example.zhang.myapplication.WelcomeView
+        android:id="@+id/welcome_canvas"
+        android:layout_width="@dimen/canvas_width"
+        android:layout_height="@dimen/canvas_height"
+        app:layout_constraintTop_toBottomOf="@id/welcome_text"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:background="@drawable/rounded_rectangle"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/welcome_btn_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_btn_line"
+        android:layout_marginTop="@dimen/helloworld_btn_margin"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_canvas"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/welcome_btn_circle"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/welcome_btn_erase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Erase"
+        android:layout_marginTop="@dimen/helloworld_btn_margin"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_canvas"
+        app:layout_constraintLeft_toRightOf="@id/welcome_btn_circle"
+        app:layout_constraintRight_toLeftOf="@+id/welcome_btn_clear"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/welcome_btn_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_btn_circle"
+        android:layout_marginTop="@dimen/helloworld_btn_margin"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_canvas"
+        app:layout_constraintLeft_toRightOf="@id/welcome_btn_line"
+        app:layout_constraintRight_toLeftOf="@id/welcome_btn_erase"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/welcome_btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_btn_clear"
+        android:layout_marginTop="@dimen/helloworld_btn_margin"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_canvas"
+        app:layout_constraintLeft_toRightOf="@id/welcome_btn_erase"
+        app:layout_constraintRight_toLeftOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

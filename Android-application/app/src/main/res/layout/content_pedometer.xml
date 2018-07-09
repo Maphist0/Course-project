@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zhang.myapplication.PedometerActivity"
+    tools:showIn="@layout/activity_pedometer">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/attri_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:paddingTop="@dimen/pedometer_attri_padding" >
+
+        <TextView
+            android:id="@+id/pedometer_text_X"
+            android:text="@string/pedometer_text_X"
+            android:textSize="@dimen/pedometer_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/pedometer_text_Y" />
+
+        <TextView
+            android:id="@+id/pedometer_text_Y"
+            android:text="@string/pedometer_text_Y"
+            android:textSize="@dimen/pedometer_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/pedometer_text_X"
+            app:layout_constraintRight_toLeftOf="@id/pedometer_text_Z" />
+
+        <TextView
+            android:id="@+id/pedometer_text_Z"
+            android:text="@string/pedometer_text_Z"
+            android:textSize="@dimen/pedometer_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/pedometer_text_Y"
+            app:layout_constraintRight_toLeftOf="@id/pedometer_text_A" />
+
+        <TextView
+            android:id="@+id/pedometer_text_A"
+            android:text="@string/pedometer_text_A"
+            android:textSize="@dimen/pedometer_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/pedometer_text_Z"
+            app:layout_constraintRight_toLeftOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/attri_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/attri_text_layout"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:paddingBottom="@dimen/pedometer_attri_padding">
+
+        <TextView
+            android:id="@+id/pedometer_edit_X"
+            android:textSize="@dimen/pedometer_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/pedometer_edit_Y"/>
+
+        <TextView
+            android:id="@+id/pedometer_edit_Y"
+            android:textSize="@dimen/pedometer_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/pedometer_edit_X"
+            app:layout_constraintRight_toLeftOf="@id/pedometer_edit_Z" />
+
+        <TextView
+            android:id="@+id/pedometer_edit_Z"
+            android:textSize="@dimen/pedometer_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/pedometer_edit_Y"
+            app:layout_constraintRight_toLeftOf="@id/pedometer_edit_A"/>
+
+        <TextView
+            android:id="@+id/pedometer_edit_A"
+            android:textSize="@dimen/pedometer_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/pedometer_edit_Z"
+            app:layout_constraintRight_toLeftOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <CheckedTextView
+        android:id="@+id/text_acc_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pedometer_text_acc_change"
+        android:textSize="@dimen/pedometer_text_size"
+        android:paddingVertical="@dimen/pedometer_text_acc_padding"
+        android:checked="true"
+        app:layout_constraintTop_toBottomOf="@id/attri_layout"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/pedometer_btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/pedometer_btn_layout_padding"
+        app:layout_constraintTop_toBottomOf="@id/text_acc_change"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent">
+
+        <Button
+            android:id="@+id/pedometer_btn_write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pedometer_btn_write"
+            android:textSize="@dimen/pedometer_text_size"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/pedometer_btn_stop" />
+
+        <Button
+            android:id="@+id/pedometer_btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pedometer_btn_stop"
+            android:textSize="@dimen/pedometer_text_size"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/pedometer_btn_write"
+            app:layout_constraintRight_toLeftOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--For welcome activity-->
+    <dimen name="helloworld_pad">16dp</dimen>
+    <dimen name="helloworld_btn_margin">30dp</dimen>
+    <dimen name="canvas_padding">6dp</dimen>
+    <dimen name="canvas_height">300dp</dimen>
+    <dimen name="canvas_width">300dp</dimen>
+
+    <!--For Wifi activity-->
+    <dimen name="wifi_btn_padding">16dp</dimen>
+    <dimen name="wifi_btn_margin">16dp</dimen>
+    <dimen name="wifi_text_margin">16dp</dimen>
+    <dimen name="wifi_text_height">300dp</dimen>
+    <dimen name="wifi_text_width">350dp</dimen>
+
+    <!--For pedometer activity-->
+    <dimen name="pedometer_attri_padding">30dp</dimen>
+    <dimen name="pedometer_text_acc_padding">30dp</dimen>
+    <dimen name="pedometer_btn_layout_padding">30dp</dimen>
+    <dimen name="pedometer_text_size">15sp</dimen>
+
+    <!--For QRCode-->
+    <dimen name="qrcode_title_text">50sp</dimen>
+    <dimen name="qrcode_title_padding">40dp</dimen>
+    <dimen name="qrcode_info_text">20sp</dimen>
+    <dimen name="qrcode_info_padding">40dp</dimen>
+    <dimen name="qrcode_btn_width">200dp</dimen>
+    <dimen name="qrcode_btn_height">60dp</dimen>
+    <dimen name="qrcode_btn_encoder_margin">60dp</dimen>
+    <dimen name="qrcode_btn_decoder_margin">40dp</dimen>
+
+    <dimen name="qrencoder_title_padding_top">40dp</dimen>
+    <dimen name="qrencoder_title_padding_bottom">80dp</dimen>
+    <dimen name="qrencoder_title_text">50sp</dimen>
+    <dimen name="qrencoder_text_width">300dp</dimen>
+    <dimen name="qrencoder_text_padding_top">40dp</dimen>
+    <dimen name="qrencoder_btn_width">200dp</dimen>
+    <dimen name="qrencoder_btn_height">60dp</dimen>
+    <dimen name="qrencoder_btn_margin_top">60dp</dimen>
+</resources>

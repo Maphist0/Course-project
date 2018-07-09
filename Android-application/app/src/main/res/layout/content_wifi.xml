@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wifi_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zhang.myapplication.WifiActivity"
+    tools:showIn="@layout/activity_wifi">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/wifi_btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/wifi_btn_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wifi_btn_scan"
+            android:layout_marginVertical="@dimen/wifi_btn_margin"
+            android:paddingVertical="@dimen/wifi_btn_padding"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/wifi_btn_clear"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/wifi_btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wifi_btn_clear"
+            android:layout_marginVertical="@dimen/wifi_btn_margin"
+            android:paddingVertical="@dimen/wifi_btn_padding"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/wifi_btn_scan"
+            app:layout_constraintRight_toLeftOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/wifi_text"
+        android:layout_width="@dimen/wifi_text_width"
+        android:layout_height="@dimen/wifi_text_height"
+        android:layout_marginTop="@dimen/wifi_text_margin"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintTop_toBottomOf="@+id/wifi_btns"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"/>
+
+
+</android.support.constraint.ConstraintLayout>

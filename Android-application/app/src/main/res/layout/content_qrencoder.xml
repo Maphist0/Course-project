@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zhang.myapplication.QREncoder"
+    tools:showIn="@layout/activity_qrencoder">
+
+    <TextView
+        android:id="@+id/qrencoder_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/qrencoder_title_padding_top"
+        android:paddingBottom="@dimen/qrencoder_title_padding_bottom"
+        android:text="@string/qrencoder_title"
+        android:textSize="@dimen/qrencoder_title_text"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/qrencoder_text"
+        android:layout_width="@dimen/qrencoder_text_width"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/qrencoder_text_padding_top"
+        android:hint="@string/qrencoder_hint"
+        app:layout_constraintTop_toBottomOf="@id/qrencoder_title"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/qrencoder_btn"
+        android:layout_width="@dimen/qrencoder_btn_width"
+        android:layout_height="@dimen/qrencoder_btn_height"
+        android:layout_marginTop="@dimen/qrencoder_btn_margin_top"
+        android:text="@string/qrencoder_btn_text"
+        app:layout_constraintTop_toBottomOf="@id/qrencoder_text"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
